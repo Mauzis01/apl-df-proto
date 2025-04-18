@@ -1,0 +1,11 @@
+streamlit>=1.42.0
+supabase==2.3.1
+python-dotenv>=1.0.0
+pandas>=2.2.0
+xlsxwriter==3.1.9
+plotly>=5.18.0
+reportlab>=4.0.0
+matplotlib>=3.8.0
+openpyxl>=3.1.2
+numpy>=1.26.0
+numpy-financial>=1.0.0 

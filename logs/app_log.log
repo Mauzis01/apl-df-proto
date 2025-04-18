@@ -1,0 +1,7 @@
+2025-04-18 11:34:58 - INFO - USER ACTION: App started - Time: 2025-04-18 11:34:58
+2025-04-18 11:34:58 - INFO - USER ACTION: Viewed page - Dealer Information
+2025-04-18 11:34:58 - INFO - USER ACTION: Loaded dealer page
+2025-04-18 11:34:58 - INFO - USER ACTION: Opening dealer form
+2025-04-18 11:34:58 - ERROR - Supabase URL or key not found in environment variables
+2025-04-18 11:34:58 - ERROR - Error getting all dealers: Missing Supabase credentials. Please set SUPABASE_URL and SUPABASE_KEY environment variables.
+2025-04-18 11:34:58 - INFO - USER ACTION: Loaded dealer list from database - Count: 0
