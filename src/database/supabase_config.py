@@ -1,5 +1,6 @@
 import os
 import logging
+import streamlit as st
 from supabase import create_client, Client
 from dotenv import load_dotenv
 
@@ -7,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Supabase configuration
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_URL = os.getenv("SUPABASE_URL") or st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = os.getenv("SUPABASE_KEY") or st.secrets["SUPABASE_KEY"]
 
 
 # Initialize Supabase client
